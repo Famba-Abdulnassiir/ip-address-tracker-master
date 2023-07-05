@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+
+  <main>
+    
+    <div class="search-ip">
+      <h1>IP Address Tracker</h1>
+      <form action="" method="post">
+        <input type="text" name="" id="ipAddress" placeholder="Search for any IP address or domain">
+        <button type="submit"></button>
+      </form>
+    </div>
+
+    <div class="result-container">
+      <div>
+        <p>IP Address</p>
+        <h3></h3>
+      </div>
+      <div>
+        <p>Location</p>
+        <h3></h3>
+      </div>
+      <div>
+        <p>Timezone</p>
+        <h3></h3>
+      </div>
+      <div>
+        <p>ISP</p>
+        <h3></h3>
+      </div>
+      
+    </div>   
+  
+    <div id="map" class="my-map">
+  
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Famba-Abdulnassiir">Famba Abdulnassiir</a>.
+    </div>
+
+  </main>
+
+  <script src="./javascript/fetch-map.js"></script>
+</body>
+</html>
