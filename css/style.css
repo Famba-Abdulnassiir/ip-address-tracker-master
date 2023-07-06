@@ -59,7 +59,7 @@ main{
     font-size: 16px;
 }
 
-.result-container div h3{
+.result-container div h4{
     font-weight: 700;
     color: hsl(0, 0%, 17%);
 }
@@ -67,7 +67,7 @@ main{
 form{
     display: flex;
 }
-#ipAddress {
+#ip-address {
     /* height: 1px; */
     width: 20rem;
     border: none;

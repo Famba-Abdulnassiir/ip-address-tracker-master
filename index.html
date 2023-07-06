@@ -25,28 +25,28 @@
     
     <div class="search-ip">
       <h1>IP Address Tracker</h1>
-      <form action="" method="post">
-        <input type="text" name="" id="ipAddress" placeholder="Search for any IP address or domain">
-        <button type="submit"></button>
+      <form method="post">
+        <input type="text" name="" id="ip-address" placeholder="Search for any IP address or domain">
+        <button type="submit" id="search-btn"></button>
       </form>
     </div>
 
     <div class="result-container">
       <div>
         <p>IP Address</p>
-        <h3></h3>
+        <h4 id="ipaddress"></h4>
       </div>
       <div>
         <p>Location</p>
-        <h3></h3>
+        <h4 id="location"></h4>
       </div>
       <div>
         <p>Timezone</p>
-        <h3></h3>
+        <h4 id="timezone"></h4>
       </div>
       <div>
         <p>ISP</p>
-        <h3></h3>
+        <h4 id="isp"></h4>
       </div>
       
     </div>   
@@ -62,6 +62,7 @@
 
   </main>
 
-  <script src="./javascript/fetch-map.js"></script>
+  <!-- <script src="./javascript/fetch-map.js"></script> -->
+  <script src="./javascript/results.js"></script>
 </body>
 </html>
